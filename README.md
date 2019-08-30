@@ -2,18 +2,25 @@
 
 # node-jose-browserify #
 
-Emulates Cisco's node-jose module for the browser.
+Emulates Cisco's node-jose module for the browser. Compatible with node.js and angular
 
 PR https://github.com/cisco/node-jose/pull/264 is raised to merge the changes with the node-jose repo
 
 Refer to https://github.com/cisco/node-jose for documentation.
+
+### Install ###
+
+```javascript
+    npm i node-jose-browserify
+```
+
 
 ## Angular Usage ##
 
 Import and use as any other package. All the methods will be supported in the browser, just as in node.js.
 
 ```javascript
-import * as jose from 'node-jose';
+import * as jose from 'node-jose-browserify';
 ```
 
 The following changes are required to make few node-modules available in the browser
