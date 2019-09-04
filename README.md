@@ -1,4 +1,5 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/NewtonJoshua/node-jose-browserify)
+![download total](https://img.shields.io/npm/dt/node-jose-browserify.svg)
 
 # node-jose-browserify #
 
