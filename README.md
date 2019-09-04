@@ -2,9 +2,7 @@
 
 # node-jose-browserify #
 
-Emulates Cisco's node-jose module for the browser. Compatible with node.js and angular
-
-PR https://github.com/cisco/node-jose/pull/264 is raised to merge the changes with the node-jose repo
+An advanced version of Cisco's node-jose module that works in both browser and the server. It is compatible with node.js and angular
 
 Refer to https://github.com/cisco/node-jose for documentation.
 
@@ -52,3 +50,7 @@ To pull the latest updates from node-jose into node-jose-browserify
 ```
 $ git pull https://github.com/cisco/node-jose.git master
 ```
+
+### PR ###
+
+PR https://github.com/cisco/node-jose/pull/264 is raised to merge the changes with the node-jose repo
