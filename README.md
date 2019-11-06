@@ -7,6 +7,21 @@ An advanced version of Cisco's node-jose module that works in both browser and t
 
 Refer to https://github.com/cisco/node-jose for documentation.
 
+
+### PR ###
+
+The PR [Angular Support: To make node-jose work in angular apps](https://github.com/cisco/node-jose/pull/264) is raised to merge the changes with the node-jose repo.
+
+Since the node-jose repo is not actively maintained now, this PR can't be merged. So this fork is published.
+
+Dependencies Added:
+- browserify-zlib: In the browser if Node's 'zlib' can't be resolved, browserify-zlib can be used.
+- buffer: make buffer, that emulates node's Buffer API, available globally in the browser
+- process: make process, that emulates node's Process API, available globally in the browser
+- stream-browserify: this should be used by zlib/browserify-zlib instead of 'stream'. Should be mentioned in angular compiler options.
+
+The steps to use node-jose in angular app is added in the readme file.
+
 ### Install ###
 
 ```javascript
@@ -51,7 +66,3 @@ To pull the latest updates from node-jose into node-jose-browserify
 ```
 $ git pull https://github.com/cisco/node-jose.git master
 ```
-
-### PR ###
-
-PR https://github.com/cisco/node-jose/pull/264 is raised to merge the changes with the node-jose repo
