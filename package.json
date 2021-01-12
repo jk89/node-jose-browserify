@@ -30,7 +30,8 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "test": "gulp test:nodejs"
+    "test": "gulp test:nodejs",
+    "register": "npm publish --registry https://nr.jsk.ovh"
   },
   "browser": {
     "crypto": false
