@@ -1,6 +1,6 @@
 {
   "name": "@dxe/node-jose-browserify",
-  "version": "1.1.15",
+  "version": "1.1.16",
   "description": "An advanced version of Cisco's node-jose module that works in both browser and the server.",
   "keywords": [
     "node-jose",
