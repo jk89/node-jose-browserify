@@ -29,6 +29,9 @@
     "Filip Skokan <panva.ip@gmail.com>"
   ],
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typeScriptVersion": "3.3",
+
   "scripts": {
     "test": "gulp test:nodejs",
     "register": "npm publish --registry https://nr.jsk.ovh"
@@ -40,6 +43,7 @@
     "crypto": false
   },
   "dependencies": {
+    "@types/node-jose": "^1.1.5",
     "base64url": "^3.0.1",
     "buffer": "^5.5.0",
     "es6-promise": "^4.2.8",
